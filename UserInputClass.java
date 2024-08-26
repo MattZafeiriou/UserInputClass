@@ -5,7 +5,7 @@ package lab1;
 import java.io.*;
 public class UserInput
 {
-    static int getInteger(){
+    public static int getInteger(){
       String line;
       InputStreamReader eisodosString = new InputStreamReader (System.in);
       BufferedReader br = new BufferedReader (eisodosString);
@@ -19,7 +19,7 @@ public class UserInput
      }
   }
 
-    static float getFloat(){
+   public static float getFloat(){
       String line;
       InputStreamReader eisodosString = new InputStreamReader (System.in);
       BufferedReader br = new BufferedReader (eisodosString);
@@ -47,7 +47,7 @@ public class UserInput
      }
   }
 
-    static short getShort(){
+   public static short getShort(){
       String line;
       InputStreamReader eisodosString = new InputStreamReader (System.in);
       BufferedReader br = new BufferedReader (eisodosString);
@@ -61,7 +61,7 @@ public class UserInput
      }
   }
 
-    static long getLong(){
+    public static long getLong(){
       String line;
       InputStreamReader eisodosString = new InputStreamReader (System.in);
       BufferedReader br = new BufferedReader (eisodosString);
@@ -75,7 +75,7 @@ public class UserInput
      }
   }
 
-    static byte getByte(){
+    public static byte getByte(){
       String line;
       InputStreamReader eisodosString = new InputStreamReader (System.in);
       BufferedReader br = new BufferedReader (eisodosString);
