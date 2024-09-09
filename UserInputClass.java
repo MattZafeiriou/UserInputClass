@@ -3,6 +3,9 @@ package lab1;
 
 
 import java.io.*;
+/*
+ * Fuck Tektonidis
+*/
 public class UserInput
 {
     public static int getInteger(){
